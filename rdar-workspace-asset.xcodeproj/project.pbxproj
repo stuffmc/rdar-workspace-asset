@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4CB3986D1849039F00166154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3986C1849039F00166154 /* main.m */; };
-		4CB398771849061C00166154 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB398741849043F00166154 /* Media.xcassets */; };
 		4CB39878184906DF00166154 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3986E184903D800166154 /* Main_iPad.storyboard */; };
 		4CB39879184906DF00166154 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB39870184903D800166154 /* Main_iPhone.storyboard */; };
 		4CF284AA1848FDC500B668B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF284A91848FDC500B668B2 /* Foundation.framework */; };
@@ -34,7 +33,6 @@
 		4CB3986C1849039F00166154 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CB3986F184903D800166154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		4CB39871184903D800166154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		4CB398741849043F00166154 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = file; path = Media.xcassets; sourceTree = "<group>"; };
 		4CB398761849047100166154 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4CF284A61848FDC500B668B2 /* rdar-workspace-asset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rdar-workspace-asset.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF284A91848FDC500B668B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				4CB398761849047100166154 /* README.md */,
-				4CB398741849043F00166154 /* Media.xcassets */,
 				4CB3986C1849039F00166154 /* main.m */,
 				4CF284E11848FE8B00B668B2 /* AppDelegate.h */,
 				4CF284E21848FE8B00B668B2 /* AppDelegate.m */,
@@ -196,7 +193,6 @@
 			files = (
 				4CB39878184906DF00166154 /* Main_iPad.storyboard in Resources */,
 				4CB39879184906DF00166154 /* Main_iPhone.storyboard in Resources */,
-				4CB398771849061C00166154 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
